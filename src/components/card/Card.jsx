@@ -10,6 +10,10 @@ export function Card() {
                 <Logo />
                 <Description />
                 <Rate />
+                <Rate />
+                <Rate />
+                <Rate />
+                <Rate />
                 <Submit />
             </main>
         </>
