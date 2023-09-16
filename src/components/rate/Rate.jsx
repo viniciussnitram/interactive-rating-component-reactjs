@@ -1,9 +1,9 @@
 export function Rate(props) {
-    let id = props.id;
+    let value = props.value;
 
     return (
         <>
-            <input className="w-[50px] border-solid border-1 border-white rounded-full text-medium-grey p-3 bg-dark-blue font-bold hover:bg-light-grey hover:text-white hover:cursor-pointer focus:bg-orange focus:text-white" type="button" name="rate" value={id} />
+            <input className="bg-dark-blue font-bold py-4 px-6 rounded-full text-medium-grey focus:bg-orange focus:text-white hover:bg-light-grey hover:cursor-pointer hover:text-white" name="rate" type="button" value={value} />
         </>
     );
 }
