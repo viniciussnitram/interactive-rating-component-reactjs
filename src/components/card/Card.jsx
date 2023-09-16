@@ -6,10 +6,10 @@ import { Submit } from '../submit/Submit';
 export function Card() {
     return (
         <>
-            <main className="bg-very-dark-blue flex flex-col gap-5 m-auto p-[45px] rounded-3xl w-[450px]">
+            <main className="bg-very-dark-blue flex flex-col gap-8 m-auto p-[45px] rounded-3xl w-[450px]">
                 <Logo />
                 <Description />
-                <form className="flex flex-col gap-5">
+                <form className="flex flex-col gap-9">
                     <div className="flex gap-5">
                         <Rate value={1} />
                         <Rate value={2} />
