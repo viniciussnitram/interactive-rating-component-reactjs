@@ -1,5 +1,10 @@
 export function Logo() {
     return (
-        <h1>Oi</h1>
+        <div className="bg-dark-blue flex font-bold h-[54px] items-center justify-center rounded-full text-medium-grey w-[54px]">
+            <img
+                src="images/icon-star.svg"
+                alt="Icon Star"
+            />
+        </div>
     );
 }
