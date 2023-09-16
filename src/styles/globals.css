@@ -9,6 +9,7 @@
   --orange: #FB7413;
 
   /* Neutral */
+  --black: #000000;
   --white: #FFFFFF;
   --light-grey: #959EAC;
   --medium-grey: #7C8798;
@@ -16,7 +17,20 @@
   --very-dark-blue: #121417;
 }
 
-html {
-  color: var(--white);
+* {
   font-family: 'Overpass', sans-serif;
+}
+
+html {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
